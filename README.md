@@ -36,8 +36,11 @@
 Programas necessários:
 
 **Visual Studio Code**: **[download](https://code.visualstudio.com/download)** para edição dos scripts
+
 **Mysql**: **[download](https://www.apachefriends.org/pt_br/download.html)** para criação, edição e utilização do banco de dados no projeto
+
 **Node**: **[download](https://nodejs.org/en/download/current)** para interpretação de scripts e gerenciamento de pacotes
+
 **Git**: **[download](https://git-scm.com/download/win)** para gerenciamento e manipulação de código e repositório
 
 
