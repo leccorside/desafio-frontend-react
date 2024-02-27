@@ -20,12 +20,22 @@
 ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
 
 
+## 1° Precisamos preparar o ambiente de desenvolvimento
+
+```bash
+git clone https://github.com/leccorside/desafio-frontend-react.git
+```
+
 ## 1° vamos clonar o repositório do Backend e Frontend
 
 ```bash
 git clone https://github.com/leccorside/desafio-frontend-react.git
 ```
 
-## 2° vamos clonar o repositório do Backend e Frontend
+## 2° vamos instalar as bibliotécas na pasta backend
+Dentro da pasta execute o comando:
 
+```bash
+npm install
+```
 
