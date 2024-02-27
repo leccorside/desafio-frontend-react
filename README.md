@@ -1,5 +1,7 @@
 <div align="center">
+
 [![Desafio Vaga FrontEnd React](img/logo-git.png)](https://github.com/leccorside)
+
 </div>
 
 <div align="center">
