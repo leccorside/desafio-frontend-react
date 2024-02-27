@@ -33,6 +33,9 @@
 </div>
 
 ## 1° Precisamos preparar o ambiente de desenvolvimento
+Programas necessários:
+
+**Visual Studio Code**: **[download](https://code.visualstudio.com/download)** para edição dos scripts
 
 ```bash
 git clone https://github.com/leccorside/desafio-frontend-react.git
