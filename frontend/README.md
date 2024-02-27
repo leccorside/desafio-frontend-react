@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Desafio Vaga FrontEnd React](img/logo-git.png)](https://github.com/leccorside)
+[![Desafio Vaga FrontEnd React](../img/logo-git.png)](https://github.com/leccorside)
 
 </div>
 
@@ -58,57 +58,57 @@ npm install
 ## 4° Vamos iniciar o Xampp para criar o banco de dados
 Abra o Xampp instalado anteriormente, e clique em **START** nas opções de **APACHE** e **MYSQL**
 
-![Print Xampp](img/xampp1.png)
+![Print Xampp](../img/xampp1.png)
 
 
 ## 5° Vamos abrir o phpmyadmin
 Após iniciar os serviços e clique em **ADMIN** nas opções **MYSQL**
 
-![Print Xampp](img/xampp2.png)
+![Print Xampp](../img/xampp2.png)
 
 
 ## 6° Vamos criar um banco de dados no phpmyadmin
 Clique em **NOVO** para abrir as opções de criação do banco de dados
 
-![Print Xampp](img/xampp3.png)
+![Print Xampp](../img/xampp3.png)
 
 
 ## 7° Vamos criar um banco de dados no phpmyadmin
 Clique em **NOVO** para abrir as opções de criação do banco de dados
 
-![Print Xampp](img/xampp3.png)
+![Print Xampp](../img/xampp3.png)
 
 
 Crie um banco de dados com o nome **auth_db** e clique em criar
 
-![Print Xampp](img/xampp4.png)
+![Print Xampp](../img/xampp4.png)
 
 
 ## 8° Vamos importar o banco de dados
 Dentro do banco criado clique em **IMPORTAR**
 
-![Print Xampp](img/xampp5.png)
+![Print Xampp](../img/xampp5.png)
 
 
 Escolha o arquivo **auth_db.sql** contido dentro da pasta raiz do projeto
 
-![Print Xampp](img/xampp6.png)
+![Print Xampp](../img/xampp6.png)
 
 
 Depois de escolher o arquivo clique em **IMPORTAR**
 
-![Print Xampp](img/xampp7.png)
+![Print Xampp](../img/xampp7.png)
 
 
 As tabelas **product**, **sessions** e **users** devem ser criadas após importar o banco
 
-![Print Xampp](img/xampp8.png)
+![Print Xampp](../img/xampp8.png)
 
 
 ## 9° Vamos configurar os dados de acesso ao banco de dados
 Dentro da raiz do backend existe uma pasta **config**, abra o arquivo **Database.js** e insira os dados de acesso, que por padrão deve ser deixado como na imagem abaixo.
 
-![Print vs1](img/vs1.png)
+![Print vs1](../img/vs1.png)
 
 
 ## 10° Criando arquivo ENV caso não exista
@@ -129,7 +129,7 @@ nodemon index
 
 No terminal deverá aparecer a mensagem **Servidor instalado e funcionando...**, isso significa que está tudo ok no backend
 
-![Print vs2](img/vs2.png)
+![Print vs2](../img/vs2.png)
 
 
 ## 12° Agora vamos instalar as dependencias na pasta do frontend 
@@ -148,7 +148,7 @@ npm start
 
 Caso o navegador não abra automaticamente, basta abrir o link conforme mostrado na imagem
 
-![Print vs3](img/vs3.png)
+![Print vs3](../img/vs3.png)
 
 
 ## DADOS DE ACESSO
