@@ -1,21 +1,6 @@
-
 <div align="center">
-  
-<<<<<<< HEAD
-[![Desafio Vaga FrontEnd React](logo-git.png)](https://github.com/leccorside)
-=======
+
 [![Desafio Vaga FrontEnd React](img/logo-git.png)](https://github.com/leccorside)
-
-</div>
-
-<div align="center">
-  <h1 align="center">
-    Desafio Front-End React
-  </h1>
-</div>
-
-<div align="center">
->>>>>>> 31302bffc0059e9a758e4ccb3f87ce0e4c80b7c4
 
 </div>
 
@@ -58,19 +43,11 @@ Programas necessários:
 **Git**: **[download](https://git-scm.com/download/win)** para gerenciamento e manipulação de código e repositório
 
 
-
-<<<<<<< HEAD
-## 2° Vamos clonar os repositórios do Backend e Frontend
-=======
 ## 2° Após instalar os programas necessários, Vamos clonar os repositórios do Backend e Frontend
->>>>>>> 31302bffc0059e9a758e4ccb3f87ce0e4c80b7c4
 
 ```bash
 git clone https://github.com/leccorside/desafio-frontend-react.git
 ```
-
-<<<<<<< HEAD
-=======
 
 ## 3° Vamos instalar as dependencias na pasta backend
 Dentro da pasta execute o comando:
@@ -83,25 +60,3 @@ npm install
 Abra o Xampp instalado anteriormente, e **START** nas opções de **APACHE** e **MYSQL**
 
 [![Print Xampp](img/xampp1.png)](https://github.com/leccorside)
->>>>>>> 31302bffc0059e9a758e4ccb3f87ce0e4c80b7c4
-
-## 3° Vamos instalar as dependencias na pasta backend
-Dentro da pasta execute o comando:
-
-```bash
-npm install
-```
-
-## 4° Vamos instalar as dependencias na pasta frontend
-Dentro da pasta execute o comando:
-
-```bash
-npm install
-```
-
-## 5° Vamos instalar as dependencias na pasta frontend
-Dentro da pasta execute o comando:
-
-## 5° Vamos instalar as dependencias na pasta frontend
-Dentro da pasta execute o comando:
-
