@@ -45,13 +45,21 @@ Programas necessários:
 
 
 
-## 1° vamos clonar o repositório do Backend e Frontend
+## 2° Vamos clonar os repositórios do Backend e Frontend
 
 ```bash
 git clone https://github.com/leccorside/desafio-frontend-react.git
 ```
 
-## 2° vamos instalar as bibliotécas na pasta backend
+
+## 3° Vamos instalar as dependencias na pasta backend
+Dentro da pasta execute o comando:
+
+```bash
+npm install
+```
+
+## 4° Vamos instalar as dependencias na pasta frontend
 Dentro da pasta execute o comando:
 
 ```bash
