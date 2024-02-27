@@ -65,4 +65,8 @@ Abra o Xampp instalado anteriormente, e clique em **START** nas opções de **AP
 ## 5° Vamos criar um banco de dados no phpmyadmin
 Após iniciar os serviços e cliqque em **ADMIN** nas opções **MYSQL**
 
+<<<<<<< HEAD
 [![Print Xampp](img/xampp2.png)](https://github.com/leccorside)
+=======
+[![Print Xampp](img/xampp2.png)](https://github.com/leccorside)
+>>>>>>> 8ab69744678e4f06a1d7b2d72faabd9cf0f81d96
