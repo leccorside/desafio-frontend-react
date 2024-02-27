@@ -5,9 +5,9 @@ Content-Type: application/json
 {
     "nome": "Nuguia",
     "email": "nuguia@gmail.com",
-    "senha": "john020469",
-    "confSenha": "john020469",
-    "cargo": "user"
+    "senha": "123456789",
+    "confSenha": "123456789",
+    "cargo": "admin"
 }
 
 ###
@@ -45,7 +45,7 @@ Content-Type: application/json
 
 {
     "email": "leccorside@gmail.com",
-    "senha": "john020469"
+    "senha": "123"
 }
 
 ###

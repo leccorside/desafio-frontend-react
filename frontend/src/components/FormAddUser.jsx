@@ -85,6 +85,7 @@ const FormAddUser = () => {
                   />
                 </div>
               </div>
+
               <div className="field">
                 <label className="label">Cargo</label>
                 <div className="control">
@@ -93,12 +94,14 @@ const FormAddUser = () => {
                       value={cargo}
                       onChange={(e) => setCargo(e.target.value)}
                     >
+                      <option value="">Selecione o cargo</option>
                       <option value="admin">Admin</option>
                       <option value="user">User</option>
                     </select>
                   </div>
                 </div>
               </div>
+
               <div className="field">
                 <div className="control">
                   <button type="submit" className="button is-success">

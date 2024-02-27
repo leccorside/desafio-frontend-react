@@ -14,9 +14,9 @@
 
 ![Versão Node](http://img.shields.io/static/v1?label=v20.11.1&message=%20NODE&color=GREEN&style=for-the-badge)
 ![Versão Nodemon](http://img.shields.io/static/v1?label=v3.1.0&message=%20NODEMON&color=RED&style=for-the-badge)
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=v10.2.4&message=%20NPM&color=BLUE&style=for-the-badge)
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=v4.18.1&message=%20EXPRESS&color=PINK&style=for-the-badge)
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=v18.2.0&message=%20REACT&color=PINK&style=for-the-badge)
+![Versão NPM](http://img.shields.io/static/v1?label=v10.2.4&message=%20NPM&color=BLUE&style=for-the-badge)
+![Versão EXPRESS](http://img.shields.io/static/v1?label=v4.18.1&message=%20EXPRESS&color=PINK&style=for-the-badge)
+![Versão REACT](http://img.shields.io/static/v1?label=v18.2.0&message=%20REACT&color=PINK&style=for-the-badge)
 
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -59,14 +59,106 @@ npm install
 ## 4° Vamos iniciar o Xampp para criar o banco de dados
 Abra o Xampp instalado anteriormente, e clique em **START** nas opções de **APACHE** e **MYSQL**
 
-[![Print Xampp](img/xampp1.png)](https://github.com/leccorside)
+[![Print Xampp](img/xampp1.png)]
 
 
-## 5° Vamos criar um banco de dados no phpmyadmin
-Após iniciar os serviços e cliqque em **ADMIN** nas opções **MYSQL**
+## 5° Vamos abrir o phpmyadmin
+Após iniciar os serviços e clique em **ADMIN** nas opções **MYSQL**
 
-<<<<<<< HEAD
-[![Print Xampp](img/xampp2.png)](https://github.com/leccorside)
-=======
-[![Print Xampp](img/xampp2.png)](https://github.com/leccorside)
->>>>>>> 8ab69744678e4f06a1d7b2d72faabd9cf0f81d96
+[![Print Xampp](img/xampp2.png)]
+
+
+## 6° Vamos criar um banco de dados no phpmyadmin
+Clique em **NOVO** para abrir as opções de criação do banco de dados
+
+[![Print Xampp](img/xampp3.png)]
+
+
+## 7° Vamos criar um banco de dados no phpmyadmin
+Clique em **NOVO** para abrir as opções de criação do banco de dados
+
+[![Print Xampp](img/xampp3.png)]
+
+
+Crie um banco de dados com o nome **auth_db** e clique em criar
+
+[![Print Xampp](img/xampp4.png)]
+
+
+## 8° Vamos importar o banco de dados
+Dentro do banco criado clique em **IMPORTAR**
+
+[![Print Xampp](img/xampp5.png)]
+
+
+Escolha o arquivo **auth_db.sql** contido dentro da pasta raiz do projeto
+
+[![Print Xampp](img/xampp6.png)]
+
+
+Depois de escolher o arquivo clique em **IMPORTAR**
+
+[![Print Xampp](img/xampp7.png)]
+
+
+As tabelas **product**, **sessions** e **users** devem ser criadas após importar o banco
+
+[![Print Xampp](img/xampp8.png)]
+
+
+## 9° Vamos configurar os dados de acesso ao banco de dados
+Dentro da raiz do backend existe uma pasta **config**, abra o arquivo **Database.js** e insira os dados de acesso, que por padrão deve ser deixado como na imagem abaixo.
+
+[![Print vs1](img/vs1.png)]
+
+
+## 10° Criando arquivo ENV caso não exista
+Caso o arquivo não esteja na pasta do backend precisamos criar um arquivo chamado **.env** na raiz do backend
+
+```bash
+APP_PORT = 5000
+SESS_SECRET = asd65asd6as5d65asd677asdasd76asd56a7sd56asd56asd5
+```
+
+
+## 11° Verificando se o servidor Node está rodando corretamente 
+Abra o arquivo **index.js** na raiz do backend e execute o comando no terminal:
+
+```bash
+nodemon index
+```
+
+No terminal deverá aparecer a mensagem **Servidor instalado e funcionando...**, isso significa que está tudo ok no backend
+
+[![Print vs2](img/vs2.png)]
+
+
+## 12° Agora vamos instalar as dependencias na pasta do frontend 
+Execute o esté comando na pasta raiz do frontend:
+
+```bash
+npm install
+```
+
+## 14° Após instalar as dependencias, vamos testar o frontend
+Execute o comando para abrir o projeto no navegador:
+
+```bash
+npm start
+```
+
+Caso o navegador não abra automaticamente, basta abrir o link conforme mostrado na imagem
+
+[![Print vs3](img/vs3.png)]
+
+
+## DADOS DE ACESSO
+ADMIN
+**EMAIL**: recrutamento@grupotxai.com.br
+
+**SENHA**: 123456789
+
+USER
+**EMAIL**: teste@gmail.com
+
+**SENHA**: 123456789
