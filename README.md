@@ -56,7 +56,13 @@ Dentro da pasta execute o comando:
 npm install
 ```
 
-## 4° Vamos criar um banco de dados no mysqlAdmin
-Abra o Xampp instalado anteriormente, e **START** nas opções de **APACHE** e **MYSQL**
+## 4° Vamos iniciar o Xampp para criar o banco de dados
+Abra o Xampp instalado anteriormente, e clique em **START** nas opções de **APACHE** e **MYSQL**
 
 [![Print Xampp](img/xampp1.png)](https://github.com/leccorside)
+
+
+## 5° Vamos criar um banco de dados no phpmyadmin
+Após iniciar os serviços e cliqque em **ADMIN** nas opções **MYSQL**
+
+[![Print Xampp](img/xampp2.png)](https://github.com/leccorside)
