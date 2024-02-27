@@ -7,6 +7,8 @@
   </h1>
 </div>
 
+<div align="center">
+
 ![Versão Node](http://img.shields.io/static/v1?label=v20.11.1&message=%20NODE&color=GREEN&style=for-the-badge)
 ![Versão Nodemon](http://img.shields.io/static/v1?label=v3.1.0&message=%20NODEMON&color=RED&style=for-the-badge)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=v10.2.4&message=%20NPM&color=BLUE&style=for-the-badge)
@@ -24,7 +26,7 @@
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
-
+</div>
 
 ## 1° Precisamos preparar o ambiente de desenvolvimento
 
