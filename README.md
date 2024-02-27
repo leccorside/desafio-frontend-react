@@ -58,7 +58,7 @@ npm install
 ## 4° Vamos iniciar o Xampp para criar o banco de dados
 Abra o Xampp instalado anteriormente, e clique em **START** nas opções de **APACHE** e **MYSQL**
 
-[![Print Xampp](img/xampp1.png)]
+![Print Xampp](img/xampp1.png)
 
 
 ## 5° Vamos abrir o phpmyadmin
