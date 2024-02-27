@@ -1,7 +1,7 @@
 
 <div align="center">
   
-[![Desafio Vaga FrontEnd React](logo-git.png)](https://github.com/leccorside)
+[![Desafio Vaga FrontEnd React](img/logo-git.png)](https://github.com/leccorside)
 
 </div>
 
@@ -45,7 +45,7 @@ Programas necessários:
 
 
 
-## 2° Vamos clonar os repositórios do Backend e Frontend
+## 2° Após instalar os programas necessários, Vamos clonar os repositórios do Backend e Frontend
 
 ```bash
 git clone https://github.com/leccorside/desafio-frontend-react.git
@@ -59,10 +59,12 @@ Dentro da pasta execute o comando:
 npm install
 ```
 
-## 4° Vamos instalar as dependencias na pasta frontend
-Dentro da pasta execute o comando:
+## 4° Vamos criar um banco de dados no mysqlAdmin
+Abra o Xampp instalado anteriormente, e **START** nas opções de **APACHE** e **MYSQL**
 
-```bash
-npm install
-```
+[![Print Xampp](img/xampp1.png)](https://github.com/leccorside)
+
+
+## 5° Vamos instalar as dependencias na pasta frontend
+Dentro da pasta execute o comando:
 
