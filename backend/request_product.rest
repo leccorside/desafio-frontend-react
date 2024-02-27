@@ -1,0 +1,50 @@
+// Criar produto
+POST  http://localhost:5000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Produto 3",
+    "valor": "150",
+    "quantidade": 5
+}
+
+###
+// Trazer todos produtos
+GET http://localhost:5000/produtos
+Content-Type: application/json
+
+###
+// Trazer produtos por ID
+GET http://localhost:5000/produtos/7825e21b-a447-4988-88e5-7a1c27e3632b
+Content-Type: application/json
+
+###
+// Editar produto
+PATCH http://localhost:5000/produtos/3caf6a4b-80f1-4329-9da4-3edb885a5115
+Content-Type: application/json
+
+{
+    "nome": "Produto atualizado",
+    "valor": "500",
+    "quantidade": "10"
+}
+
+###
+// Deletar usuário
+DELETE http://localhost:5000/usuarios/d2da18f5-ef8a-4fb3-a501-4560b25cebad
+Content-Type: application/json
+
+###
+// Login
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "nuguia@gmail.com",
+    "senha": "john020469"
+}
+
+###
+// Sair
+DELETE  http://localhost:5000/logout
+Content-Type: application/json

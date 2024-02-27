@@ -1,0 +1,8 @@
+# Ignore os arquivos de sistema do Mac
+.DS_store
+
+# Ignore a pasta node_modules do backend
+backend/node_modules
+
+# Ignore a pasta node_modules do frontend
+frontend/node_modules
